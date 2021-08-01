@@ -30,10 +30,10 @@ const Footer = () => {
       <Link to="/test">
         <img src={PenIcon} alt="Test" className="icon" />
       </Link>
-      <Link tp="achievements">
+      <Link to="/achievements">
         <img src={TrophyIcon} alt="Achievements" className="icon" />
       </Link>
-      <Link to="account">
+      <Link to="/account">
         <img src={LockIcon} alt="Account" className="icon" />
       </Link>
     </StyledFooter>

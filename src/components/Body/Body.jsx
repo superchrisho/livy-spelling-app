@@ -1,11 +1,29 @@
+import { Route, Switch } from "react-router-dom";
 import styled from "styled-components";
+import Home from "../Body/pages/Home";
+import Test from "../Body/pages/Test";
+import Achievements from "../Body/pages/Achievements";
+import Account from "../Body/pages/Account";
 
 const StyledBody = styled.div``;
 
 const Body = () => {
   return (
     <StyledBody>
-      <h1>Body</h1>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/test">
+          <Test />
+        </Route>
+        <Route path="/achievements">
+          <Achievements />
+        </Route>
+        <Route path="/account">
+          <Account />
+        </Route>
+      </Switch>
     </StyledBody>
   );
 };
