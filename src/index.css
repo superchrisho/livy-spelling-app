@@ -1,0 +1,45 @@
+:root {
+  --ff1: "Fredoka One", cursive;
+  --ff2: "Varela Round", sans-serif;
+  --ff3: "Patrick Hand", cursive;
+
+  --grey900: hsl(0, 0%, 10%);
+  --grey800: hsl(0, 0%, 20%);
+  --grey700: hsl(0, 0%, 30%);
+  --grey600: hsl(0, 0%, 40%);
+  --grey500: hsl(0, 0%, 50%);
+  --grey400: hsl(0, 0%, 60%);
+  --grey300: hsl(0, 0%, 70%);
+  --grey200: hsl(0, 0%, 80%);
+  --grey100: hsl(0, 0%, 90%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  height: 100vh;
+  background-color: var(--grey900);
+  font-family: var(--ff2);
+  color: var(--grey700);
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-family: var(--ff1);
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: var(--ff1);
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-family: var(--ff1);
+}
