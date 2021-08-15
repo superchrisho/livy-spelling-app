@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// createSlice will create actions and reducers
 export const appSlice = createSlice({
   name: "app",
   initialState: {
