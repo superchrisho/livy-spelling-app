@@ -5,7 +5,11 @@ import Test from "../Body/pages/Test";
 import Achievements from "../Body/pages/Achievements";
 import Account from "../Body/pages/Account";
 
-const StyledBody = styled.div``;
+const StyledBody = styled.div`
+  width: 100%;
+  padding: 1rem;
+  
+`;
 
 const Body = () => {
   return (
