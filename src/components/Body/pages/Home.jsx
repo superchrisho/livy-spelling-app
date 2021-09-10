@@ -15,9 +15,17 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   columnHeader: {
     fontSize: 16,
+    "& .MuiSvgIcon-root": {
+      width: "1.5em",
+      height: "1.5em",
+    },
   },
   cell: {
     fontSize: 16,
+    "& .MuiSvgIcon-root": {
+      width: "1.5em",
+      height: "1.5em",
+    },
   },
 });
 
@@ -42,14 +50,12 @@ const Home = () => {
     {
       field: "title",
       headerName: "Title",
-      flex: 1,
-      minWidth: 30,
+      minWidth: 20,
     },
     {
       field: "date",
       headerName: "Date",
-      minWidth: 30,
-      flex: 0.5,
+      minWidth: 10,
     },
   ];
 
